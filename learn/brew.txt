@@ -1,0 +1,12 @@
+brew -h
+brew install software
+brew uninstall software
+brew search software
+brew list		#显示已经安装的软件
+brew update
+brew upgrade software
+brew [info | home][FORMULA...]
+
+Hou
+
+

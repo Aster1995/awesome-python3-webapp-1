@@ -1,0 +1,34 @@
+open [file]  #按照默认方式直接打开
+open .  #Finder中打开当前路径
+
+touch [new.txt]  #新建文件
+rm [name]  #删除文件
+mkdir file_name  #新建文件夹
+rm file_name  #删除，只能删除文件，不能删除文件夹
+cp  mv  rmdir  rm-R
+
+Ctrl + L  #清空界面
+
+man command-name  #获取command-name使用指南(’/ 关键字‘搜索 <n/shift+n 上下匹配项>)
+
+..  #代表父目录
+cd ../..  #返回父父目录
+ls -a(al/la)  #显示隐藏文件
+ls -Al(lA)  #显示隐藏文件，不显示. .. 两项，分别表示当前文件夹和父文件夹
+pwd  #“print working directory” 显示当前路径
+ls  #“list directory contents” 列出当前目录内容
+cd  #“change directory” 打开指定目录，若未指定，返回到home folder
+
+cat 路径名  #“concatenate” 会按顺序读取⽂文件并输出到 Terminal 窗⼝口(’/ 关键字‘ 搜索)
+less 路径名  #适合读长文件(’/ 关键字‘ 搜索)
+which  #定位命令的文件路径
+file
+find  #find [folder-name] -name "file name"
+mdfind  #mdfind file-name 用Spotlight搜索
+
+通配符：
+星号（＊，Asterisk）——代表任何⻓长度的任何字符。例如：*.tiff代表所有格式为 tiﬀ的⽂文件。
+问号（?，Question mark）——代表任何单个字符。例如：b?ok匹配 book但是不不匹配 brook。
+方括号（[]，Square brackets）——定义⼀一定范围的字符。例如：[Dd]ocument匹配 Document以及 document；doc[1-9]匹配 doc1, doc2, …, doc9。
+
+sudo  #“substitute user do”

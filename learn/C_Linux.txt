@@ -1,0 +1,13 @@
+gcc hello.c
+
+
+服务器账号：ssh tjz@219.224.169.14 -p 2222
+密码：000000
+
+本地上传服务器：scp -P 2222 /Users/zhaoming/Desktop/2048.py tjz@219.224.169.14:~
+服务器传回本地：scp -P 2222 tjz@219.224.169.14:~/examples.desktop /Users/zhaoming/Desktop
+
+
+(g)objdump   反编译
+(g)readelf   前提要是ELF文件
+

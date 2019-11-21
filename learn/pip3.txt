@@ -1,0 +1,1 @@
+pip3 list 显示pip3装过哪些包，pip3与conda不同，不会默认安装很多包，用到再安（pygame在pip3上能找到，conda里面没有）

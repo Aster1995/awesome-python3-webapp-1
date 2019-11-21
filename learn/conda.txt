@@ -1,0 +1,8 @@
+conda list 显示conda装过哪些包
+
+conda list | grep jupyter 在装过包的里找和jupyter匹配的字段，|是管道，左侧函数的输出用作右侧函数的输入
+
+python -m jupyterlab 运行juptyer
+python -m qtconsole 运行qtconsole
+
+每次打开terminal都会运行zsh，每一个命令都会在环境变量的若干路径中寻找与之匹配的命令，没有的话就会报错，原因是①没安装或②安装的路径没有写到环境变量PATH中（export PATH=路径:$PATH 即可）
